@@ -28,12 +28,23 @@ Some other worth to mention considerations are:
 
 - The jupyter-matlab-proxy has a dependency that can be very tricky to install, [jupyter_contrib_nbextensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html). Jupyter 7 has a breaking change and jupyter_contrib_nbextensions does not work corretly with it. A workaround is to install notebook < 7.0.0. Moreover, the MATLAB kernel repository states:
 
-"MATLAB code execution is available on both JupyterLab 3 and JupyterLab 4, but other features (such as syntax highlighting) are currently only supported on JupyterLab 3. Install JupyterLab 3 using:
+<blockquote>
+MATLAB code execution is available on both JupyterLab 3 and JupyterLab 4, but other features (such as syntax highlighting) are currently only supported on JupyterLab 3. Install JupyterLab 3 using:<br><br>
 
-```shell
+```MATLAB
 python3 -m pip install 'jupyterlab>=3.0.0,<4.0.0a0'
 ```
-"
+<br>
+</blockquote>
+
+This may also requires an specific version of the Jupyter Server:
+
+```MATLAB
+pip install -U "jupyter-server<2.0.0"
+```
+
+
+
 
 ### Working in Windows
 
