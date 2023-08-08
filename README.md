@@ -1,13 +1,13 @@
 # RAVEN Toolbox exercises
 
-![Python 3.11](https://img.shields.io/badge/-Python3.11-646464?logo=python&labelColor=FFD43B)
+![Python 3.11](https://img.shields.io/badge/-Python_3.11-646464?logo=python&labelColor=FFD43B)
 [![Gurobi 10.0.2](https://img.shields.io/badge/Gurobi-10.0.2-2AAA8A)](https://www.gurobi.com/downloads/gurobi-optimizer-release-notes-v10-0-2/)
 [![The RAVEN Toolbox 2](https://img.shields.io/badge/RAVEN-v2.8.4-2AAA8A)](https://github.com/SysBioChalmers/RAVEN)
-[![Software License: GPL v3](https://img.shields.io/badge/License-GPLv3-28282B)](https://www.gnu.org/licenses/gpl-3.0)
-![Content License](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
+[![Software License: GPL v3](https://img.shields.io/badge/Software_License-GPLv3-28282B)](https://www.gnu.org/licenses/gpl-3.0)
+[![Content License: CC BY-NC-SA 4.0](https://img.shields.io/badge/Content_License-CC_BY_NC_SA_v4.0-28282B)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
-In this repository I store, for personal study purposes, solving of some RAVEN Toolbox-related tutorials and exercises.
+In this repository I store, for personal study purposes, solving of some [RAVEN Toolbox](https://github.com/SysBioChalmers/RAVEN)-related tutorials and exercises.
 
 ## Set up environment
 
@@ -77,5 +77,3 @@ A workaround to this problem is to create a "python3" alias:
 Set-Alias -Name python3 -Value python
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
-
-
