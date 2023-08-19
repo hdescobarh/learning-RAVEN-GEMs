@@ -1,6 +1,7 @@
 # RAVEN Toolbox exercises
 
-![Python 3.11](https://img.shields.io/badge/-Python_3.11-646464?logo=python&labelColor=FFD43B)
+![Python 3.11](https://img.shields.io/badge/Python-3.11-2AAA8A)
+![MATLAB R2023a](https://img.shields.io/badge/MATLAB-R2023a-2AAA8A)
 [![Gurobi 10.0.2](https://img.shields.io/badge/Gurobi-10.0.2-2AAA8A)](https://www.gurobi.com/downloads/gurobi-optimizer-release-notes-v10-0-2/)
 [![The RAVEN Toolbox 2](https://img.shields.io/badge/RAVEN-v2.8.4-2AAA8A)](https://github.com/SysBioChalmers/RAVEN)
 [![Software License: GPL v3](https://img.shields.io/badge/Software_License-GPLv3-28282B)](https://www.gnu.org/licenses/gpl-3.0)
